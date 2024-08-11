@@ -1,4 +1,7 @@
 #include<iostream>
+class sort{
+ public:
+};
 
 int main(){
 
