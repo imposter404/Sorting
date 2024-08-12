@@ -1,10 +1,15 @@
 # Sorting
+
 all sorting algorithm in 
 ## C++
 
+> ```C++
 > #include<iostream>
+> ```
+
 ___
-⌛ Time complexity
+
+## ⌛ Time complexity
 
 |Algorithm|Best_case|Worst_case|Avg_case|Space|Stable|
 |-   |-        |-         |-       |-     |-  |
