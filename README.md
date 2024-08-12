@@ -1,6 +1,6 @@
 # Sorting
 all sorting algorithm in 
-##C++
+## C++
 
 > #include<iostream>
 ___
