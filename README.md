@@ -1,6 +1,5 @@
 # Sorting
 
-> ```
 > #include<iostream>
 
 Time complexity 
