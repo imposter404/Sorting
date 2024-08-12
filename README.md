@@ -5,6 +5,7 @@ all sorting algorithm in
 
 > ```C++
 > #include<iostream>
+> using namespace std;
 > ```
 
 ___
