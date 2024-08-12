@@ -1,5 +1,6 @@
 # Sorting
-all sorting algorithm in ``` c++ C++```
+all sorting algorithm in 
+> ``` c++ C++```
 
 > #include<iostream>
 ___
