@@ -1,7 +1,8 @@
 # Sorting
 
-> #include<iostream>
-> #include<iostream>
+> ``` c++
+>#include<iostream>
+>```
 
 Time complexity 
 
