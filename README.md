@@ -1,6 +1,6 @@
 # Sorting
 
-> ``` c
+> ```
 > #include<iostream>
 
 Time complexity 
