@@ -21,5 +21,6 @@ int values[]={1,2,3,4,5,6,7,8,9,10}
 cout<<"The unsorted array is";
 s.display();
 court<<"Sorted array : ";
+merge_sort();
 return 0;
 }
