@@ -30,5 +30,6 @@ sort s;
 s.display();
 cout<<"the sorted array is ";
 quick_sort();
+s.display();
 
 }
