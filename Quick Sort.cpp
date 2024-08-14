@@ -1,6 +1,6 @@
 #include<iostream>
 
-class sort(){}
+class sort{}
 
 
 int main(){
