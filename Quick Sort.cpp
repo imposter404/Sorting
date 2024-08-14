@@ -33,8 +33,8 @@ Quick_sort(arr,p+1,b);
 
 int main(){
 int values =[23,42,65,91,36,72,02];
-
 sort s;
+s.size=sizeof(values)/sizeof(values[0]);
 cout<<"the unsorted array is ";
 
 s.display();
