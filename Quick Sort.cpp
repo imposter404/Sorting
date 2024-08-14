@@ -1,7 +1,7 @@
 #include<iostream>
 
 class sort{
-public:
+    public:
 };
 
 
