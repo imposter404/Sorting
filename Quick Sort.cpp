@@ -33,8 +33,10 @@ Quick_sort(arr,p+1,b);
 
 int main(){
 int values =[23,42,65,91,36,72,02];
-cout<<"the unsorted array is ";
+
 sort s;
+cout<<"the unsorted array is ";
+
 s.display();
 cout<<"the sorted array is ";
 quick_sort();
