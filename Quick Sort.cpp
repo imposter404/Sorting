@@ -16,6 +16,12 @@ void sort:: display(){
 
 
 Void Quick_sort(int arr[],int a,int b){
+if(a<b)
+
+int p= partition(arr,a,b)
+
+}
+
 
 }
 
