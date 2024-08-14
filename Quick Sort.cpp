@@ -8,17 +8,14 @@ class sort{
 };
 
 void sort:: display(){
-
-for(int i=0;i<size;i++)
-{
- cout<<arr[i]<<" ";
-}
+  for(int i=0;i<size;i++)
+  {
+    cout<<arr[i]<<" ";
+  }
 }
 
 
 Void Quick_sort(){
-
-
 
 }
 
