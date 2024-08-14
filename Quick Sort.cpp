@@ -1,6 +1,8 @@
 #include<iostream>
 
-class sort{}
+class sort{
+public:
+};
 
 
 int main(){
