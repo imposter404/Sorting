@@ -38,6 +38,7 @@ if(arr[j]<=p)
 			swap(arr[i],arr[j]);
 }
 	}
+	swap(arr[i+1],arr[b]);
 	
 	
 		
