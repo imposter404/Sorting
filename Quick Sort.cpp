@@ -26,6 +26,12 @@ void sort:: display(){
 }
 
 
+int partition(int arr[],int a,int b)
+
+
+
+
+
 Void Quick_sort(int arr[],int a,int b){
 if(a<b)
 {
