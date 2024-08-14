@@ -20,6 +20,7 @@ if(a<b)
 {
 int p= partition(arr,a,b)
 Quick_sort(arr,a,p-1)
+Quick_sort(arr,p+1,b);
 
 }
 
