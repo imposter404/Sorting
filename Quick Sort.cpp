@@ -4,6 +4,7 @@ class sort{
     public:
     int* arr[];
     int size;
+    void display();
 };
 
 
