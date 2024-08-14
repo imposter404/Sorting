@@ -2,7 +2,8 @@
 
 class sort{
     public:
-    int* arr[]
+    int* arr[];
+    int size;
 };
 
 
