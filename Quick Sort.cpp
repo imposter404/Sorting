@@ -31,7 +31,8 @@ int partition(int arr[],int a,int b)
 	int p=arr[b];
 int i=a-1;
 for(int j=a;j<b;j++)
-	
+{
+		
 	
 	
 
