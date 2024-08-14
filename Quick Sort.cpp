@@ -33,6 +33,8 @@ int i=a-1;
 for(int j=a;j<b;j++)
 {
 if(arr[j]<=p)
+		{
+			i+
 	
 		
 	
