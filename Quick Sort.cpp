@@ -7,6 +7,17 @@ class sort{
     void display();
 };
 
+void sort:: display(){
+
+for(int i=0;i<size;i++)
+{
+ cout<<arr[i]<<" ";
+}
+
+}
+
+
+
 
 int main(){
 int values =[23,42,65,91,36,72,02];
