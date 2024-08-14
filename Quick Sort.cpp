@@ -32,6 +32,8 @@ int partition(int arr[],int a,int b)
 int i=a-1;
 for(int j=a;j<b;j++)
 {
+if(arr[j]<=p)
+	
 		
 	
 	
