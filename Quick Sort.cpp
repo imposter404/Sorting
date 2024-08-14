@@ -34,7 +34,9 @@ for(int j=a;j<b;j++)
 {
 if(arr[j]<=p)
 		{
-			i+
+			i++;
+			swap(arr[i],arr[j]);
+		
 	
 		
 	
