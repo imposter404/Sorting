@@ -15,7 +15,7 @@ void sort:: display(){
 }
 
 
-Void Quick_sort(){
+Void Quick_sort(int arr[]){
 
 }
 
