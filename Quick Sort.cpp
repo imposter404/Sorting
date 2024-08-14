@@ -28,6 +28,7 @@ void sort:: display(){
 
 int partition(int arr[],int a,int b)
 {
+	int p=arr[b];
 	
 
 
