@@ -41,7 +41,7 @@ if(arr[j]<=p)
 	swap(arr[i+1],arr[b]);
 	return (i+1);
 
-		
+		}
 	
 		
 	
