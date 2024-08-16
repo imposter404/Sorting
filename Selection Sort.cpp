@@ -1,1 +1,2 @@
- #include<iostream.h>
+#include<iostream.h>
+using namespace std;
