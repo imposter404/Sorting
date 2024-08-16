@@ -20,6 +20,23 @@ for(int i = 0;i<size; i++)
 }
 
 
+void sort:: selection_sort{
+int min=0;
+for(int i = 0;i<size; i++)
+{
+   for(int j = i;j<size; j++)
+      {
+         if(arr[j]<arr[min])
+           {
+            min=j
+           }
+       }
+ }
+
+}
+
+
+
 int main(){
 int values=[3,2,89,34,51,62,41,77,92,23];
 
