@@ -45,7 +45,7 @@ cout<<"Unsorted array is ";
 s.display();
 cout<<"sorted array is ";
 Selection_sort();
-
+s.display();
 
 
 }
