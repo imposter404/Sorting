@@ -15,3 +15,4 @@ ___
 |-   |-        |-         |-       |-     |-  |
 |Merge Sort|n log n|n log n|n log n |n |Yes|
 |Quick Sort|n log n|$n^2$|n log n|log n|No|
+|selection Sort|
