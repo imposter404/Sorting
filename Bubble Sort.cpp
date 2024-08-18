@@ -6,6 +6,7 @@ cout<<"the unsorted array is";
 display();
 
 cout<<"sorted array is";
+Bubble_sort();
 display();
 
 }
