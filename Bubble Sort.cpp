@@ -5,7 +5,7 @@ using namespace std;
 
 
 void display(){
-for(){
+for(i=0){
 }
 
 }
