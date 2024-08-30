@@ -1,13 +1,13 @@
-#include<iostream.h> 
+#include<iostream>
 using namespace std;
+
 class sort{
 	public :
-int* arr;
+		int* arr;
 		int size;
 		void values(int values[]) ;
 		void display() ;
 		void Bubble_sort();
-		
 };
 
 void sort::values(int values[]){
@@ -17,13 +17,13 @@ void sort::values(int values[]){
 		arr[i]=values[i];
 	}
 }
-
 void sort::	display(){
     for(int i=0;i<size;i++)
     {
         cout<<arr[i]<<" "	;
     }
 }
+
 
 
 
@@ -48,12 +48,14 @@ void sort::Bubble_sort(){
 
 
 int main(){
-int values=[9,34,52,71,48,32,34,52,18];
-
-cout<<"the unsorted array is";
-display();
-cout<<"sorted array is";
-Bubble_sort();
-display();
+int values[]={22,54,15,87,34,26,21,12,9,11};
+sort s;
+s.size=sizeof(values)/sizeof(values[0]);
+s.values(values);
+cout<<"Unsorted array\n";
+s.display();
+cout<<"\nSorted array\n";
+s.Bubble_sort();
+return 0;
 
 }
