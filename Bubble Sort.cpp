@@ -9,6 +9,10 @@ for(i=0;i<size;i++){
 
 for(j=0;j<size;i++)
 {
+if(arr[j] > arr[j+1])
+    		{
+    			swap(arr[j],arr[j+1]);
+    		}
 }
 
 }
