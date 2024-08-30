@@ -1,6 +1,9 @@
 #include<iostream.h> 
 using namespace std;
-
+class sort{
+	public :
+		
+};
 
 
 
