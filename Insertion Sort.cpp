@@ -1,5 +1,5 @@
 #include<iostream>
 
 int main(){
-int values=[]
+int values=[1,2,3,4,5,6]
 }
