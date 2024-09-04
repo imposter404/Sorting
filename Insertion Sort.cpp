@@ -2,6 +2,7 @@
 
 class sort{
 public:
+int size
 }
 
 int main(){
