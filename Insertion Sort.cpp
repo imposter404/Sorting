@@ -2,7 +2,7 @@
 
 class sort{
 public:
-intarr
+int arr
 int size
 }
 
