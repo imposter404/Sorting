@@ -2,6 +2,7 @@
 
 class sort{
 public:
+intarr
 int size
 }
 
