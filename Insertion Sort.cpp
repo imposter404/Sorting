@@ -7,5 +7,5 @@ int size
 }
 
 int main(){
-int values=[1,2,3,4,5,6]
+int values=[1,2,3,4,5,6];
 }
