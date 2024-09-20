@@ -6,6 +6,8 @@ class sort{
 int* arr;
 		int  size;
 		void values(int values[]) ;
+void display() ;
+		
 		
 };
 
