@@ -2,7 +2,8 @@
 using namespace std;
 
 class sort{
-	
+	public :
+		
 };
 
 
