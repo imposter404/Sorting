@@ -8,6 +8,6 @@ s.values(values);
 cout<<"Unsorted array\n";
 s.display();
 cout<<"\nSorted array\n";
-
+s.Heap_sort();
 
 }
