@@ -6,5 +6,7 @@ sort s;
 s.size=sizeof(values)/sizeof(values[0]);
 s.values(values);
 cout<<"Unsorted array\n";
+s.display();
+
 
 }
