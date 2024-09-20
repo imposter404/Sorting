@@ -49,6 +49,21 @@ void sort::Heapify(int n,int i)
 	}
 }
 
+void sort::Heap_sort(){
+	for(int i=size/2 -1;i>=0;i--)
+	{
+		Heapify(size,i);
+	}
+	for(int i=size-1;i>=0;i--)
+	{
+		swap(arr[0],arr[i]);
+		Heapify(i,0);
+	}
+}
+
+
+
+
 
 int main(){
 int values[]={1,12,9,5,6,10};
