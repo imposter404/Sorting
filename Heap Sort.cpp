@@ -8,6 +8,8 @@ int* arr;
 		void values(int values[]) ;
 void display() ;
 		void Heapify(int n,int i);
+		void Heap_sort();
+		
 		
 };
 
