@@ -7,7 +7,7 @@ int* arr;
 		int  size;
 		void values(int values[]) ;
 void display() ;
-		
+		void Heapify(int n,int i);
 		
 };
 
