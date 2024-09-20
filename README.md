@@ -22,3 +22,4 @@ ___
 |Quick Sort|n log n|$n^2$|n log n|log n|No|
 |Selection Sort|$n^2$|$n^2$|$n^2$|1|No|
 |Bubble Sort|n|$n^2$|$n^2$|1|Yes|
+|Heap Sort|
