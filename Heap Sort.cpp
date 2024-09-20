@@ -3,6 +3,9 @@ using namespace std;
 
 class sort{
 	public :
+int* arr;
+		int  size;
+
 		
 };
 
