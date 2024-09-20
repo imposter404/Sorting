@@ -5,7 +5,7 @@ class sort{
 	public :
 int* arr;
 		int  size;
-
+		void values(int values[]) ;
 		
 };
 
