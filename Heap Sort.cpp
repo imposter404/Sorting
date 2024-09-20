@@ -1,5 +1,11 @@
 #include<iostream>
 using namespace std;
+
+class sort{
+	
+};
+
+
 int main(){
 int values[]={1,12,9,5,6,10};
 sort s;
