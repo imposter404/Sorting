@@ -10,4 +10,6 @@ s.display();
 cout<<"\nSorted array\n";
 s.Heap_sort();
 s.display();
+return 0;
 
+}
