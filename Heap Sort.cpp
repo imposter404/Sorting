@@ -13,6 +13,19 @@ void display() ;
 		
 };
 
+void sort::values(int values[]){
+	arr=new int[size];
+	for(int i=0;i<size;i++)
+	{
+		arr[i]=values[i];
+	}
+}
+
+
+
+
+
+
 
 int main(){
 int values[]={1,12,9,5,6,10};
