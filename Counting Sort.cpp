@@ -8,7 +8,6 @@ class sort{
 		void display() ;
 		void Counting_sort();
 };
-
 void sort::values(int values[]){
 	arr=new int[size];
 	for(int i=0;i<size;i++)
