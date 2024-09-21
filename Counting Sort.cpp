@@ -33,6 +33,47 @@ void sort::display(){
 }
 
 
+void sort::Counting_sort(){
+	int max=arr[0];
+	for(int i=1;i<size;i++)
+	{
+	    if(arr[i] > max)
+	    {
+	        max=arr[i];
+	    }
+	}
+
+	int a1[max+1];
+	for(int i=0;i<max+1;i++)
+	{
+		a1[i]=0;
+	}
+
+	for(int i=0;i<size;i++)
+	{
+		a1[arr[i]]++;
+	}
+
+	for(int i=1;i<max+1;i++)
+	{
+		a1[i]+=a1[i-1];
+	}
+
+	int output[size];
+	for(int i=0;i<size;i++)
+	{
+		output[a1[arr[i]]-1]=arr[i];
+		a1[arr[i]]--;
+	}
+	for(int i=0;i<size;i++)
+	{
+		cout<<output[i]<<" ";
+	}
+}
+
+
+
+
 
 
 
