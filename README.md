@@ -28,3 +28,4 @@ ___
 |Bucket Sort |n+k |$n^2$ |n |n+k |Yes |
 |Heap Sort |n log n |n log n |n log n |1 |No |
 |Shell Sort |n log n |$n^2$ |n log n |1 |No | 
+|Monkey Sort |(n+1)! |\infty
