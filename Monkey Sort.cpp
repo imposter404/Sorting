@@ -42,6 +42,30 @@ bool sort::isSorted(){
 
 
 
+void sort::Sorted(){
+	for(int i=0;i<size;i++)
+	{
+		int j;
+		int temp;
+		j=rand() % size;
+
+		temp=arr[i];
+		arr[i]=arr[j];
+		arr[j]=temp;
+	}
+}
+
+
+void sort::Monkey_sort(){
+	int y=0;
+	srand(time(0));
+	while(isSorted())
+	{
+		Sorted();
+		y++;
+	}
+	cout<<"No of Try : "<<y<<"\n";
+}
 
 
 
