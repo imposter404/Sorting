@@ -3,6 +3,17 @@
 #include<time.h>
 using namespace std;
 
+class sort{
+	public :
+		int* arr;
+		int  size;
+		void values(int values[]) ;
+		void display() ;
+		bool isSorted();
+		void Sorted();
+		void Monkey_sort();
+};
+
 
 
 
