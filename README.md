@@ -14,6 +14,10 @@ all sorting algorithm in
 
 ___
 
+> [!NOTE]
+> COMPLETED ✅ 
+
+---
 ### ⌛ Time complexity
 
 |Algorithm|Best_case|Worst_case|Avg_case|Space|Stable|
