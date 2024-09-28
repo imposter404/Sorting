@@ -21,3 +21,20 @@ void sort::display(){
         cout<<arr[i]<<" ";
     }
 }
+
+void sort::Shell_sort(){
+	for(int i=size/2;i>0;i/=2)
+	{
+		for(int j=i;j<size;j++)
+		{
+			int temp=arr[j];
+			int k;
+			for(k=j;k>=i && arr[k-i]>temp;k-=i)
+			{
+				arr[k]=arr[k-i];
+			}
+			arr[k]=temp;
+		}
+	}
+
+}
