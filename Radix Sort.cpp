@@ -10,3 +10,10 @@ class sort{
 		void Radix_sort();
         void Counting_sort(int place);
 };
+void sort::values(int values[]){
+	arr=new int[size];
+	for(int i=0;i<size;i++)
+	{
+		arr[i]=values[i];
+	}
+}
