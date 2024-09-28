@@ -50,3 +50,24 @@ void sort::Counting_sort(int place){
 		count[(arr[i]/place)%10]--;
 	}
 }
+
+void sort::Radix_sort(){
+    int max=arr[0];
+    for(int i=i;i<size;i++)
+    {
+        if(arr[i]>max)
+        {
+            max=arr[i];
+        }
+    }
+
+    for(int place=1;max/place;place*=10)
+    {
+        Counting_sort(place);
+    }
+    
+    for(int i=0;i<size;i++)
+	{
+		cout<<output[i]<<" ";
+	}
+}
