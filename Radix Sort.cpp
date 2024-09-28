@@ -71,3 +71,16 @@ void sort::Radix_sort(){
 		cout<<output[i]<<" ";
 	}
 }
+
+int main(){
+int values[]={911,458,64,215,450,666};
+sort s;
+s.size=sizeof(values)/sizeof(values[0]);
+s.values(values);
+cout<<"Unsorted array\n";
+s.display();
+cout<<"\nSorted array\n";
+s.Radix_sort();
+return 0;
+
+}
