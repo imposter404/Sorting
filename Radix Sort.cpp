@@ -23,3 +23,30 @@ void sort::display(){
         cout<<arr[i]<<" ";
     }
 }
+
+void sort::Counting_sort(int place){
+	int max=10;
+
+	int count[max];
+	for(int i=0;i<max;i++)
+	{
+		count[i]=0;
+	}
+
+	for(int i=0;i<size;i++)
+	{
+		count[(arr[i]/place)%10]++;
+	}
+
+	for(int i=1;i<max+1;i++)
+	{
+		count[i]+=count[i-1];
+	}
+
+	output=new int[size];
+	for(int i=size-1;i>=0;i--)
+	{
+		output[count[(arr[i]/place)%10]-1]=arr[i];
+		count[(arr[i]/place)%10]--;
+	}
+}
